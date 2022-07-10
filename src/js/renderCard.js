@@ -42,9 +42,5 @@ export function renderMarkup(result) {
     )
     .join('')}</ul>`;
 
-  drowMarkup(markup);
-}
-
-function drowMarkup(markup) {
-  galleryElement.insertAdjacentHTML('beforeend', markup);
+    galleryElement.insertAdjacentHTML('beforeend', markup);
 }
