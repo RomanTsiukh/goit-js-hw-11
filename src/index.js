@@ -65,7 +65,7 @@ async function getGallery(event) {
 
 async function onClickMoreImg() {
   try {
-    if (page !== null) {
+    if (page > 0) {
       page += 1;
       const img = await fetchImages(nameImg);
       const imgData = img.data;
